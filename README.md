@@ -5,7 +5,7 @@
 - [Step 1] 코틀린 학습 테스트: [Issue #1](https://github.com/jaeyeonme/kotlin-racingcar/issues/1) · [PR #2](https://github.com/jaeyeonme/kotlin-racingcar/pull/2) — 완료
 - [Step 2] 문자열 계산기 구현: [Issue #3](https://github.com/jaeyeonme/kotlin-racingcar/issues/3) · [PR #4](https://github.com/jaeyeonme/kotlin-racingcar/pull/4) — 완료
 - [Step 3] 자동차 경주: [Issue #5](https://github.com/jaeyeonme/kotlin-racingcar/issues/5) · [PR #6](https://github.com/jaeyeonme/kotlin-racingcar/pull/6) — 완료
-- [Step 4] 자동차 경주(우승자): [Issue #7](https://github.com/jaeyeonme/kotlin-racingcar/issues/7) — 구현 중
+- [Step 4] 자동차 경주(우승자): [Issue #7](https://github.com/jaeyeonme/kotlin-racingcar/issues/7) · [PR #8](https://github.com/jaeyeonme/kotlin-racingcar/pull/8) — 구현 완료 · 리뷰 중
 
 ## 과거 제출 이력
 
