@@ -1,6 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
+    application
     kotlin("jvm") version "2.4.10"
     id("org.jmailen.kotlinter") version "5.7.0"
 }
@@ -10,6 +11,10 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClass.set("study.step3.RacingCarApplicationKt")
 }
 
 dependencies {
@@ -28,6 +33,9 @@ kotlin {
 tasks {
     test {
         useJUnitPlatform()
+    }
+    named<JavaExec>("run") {
+        standardInput = System.`in`
     }
     register("ktlintCheck") {
         group = "verification"
