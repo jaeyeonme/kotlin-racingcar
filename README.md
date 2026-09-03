@@ -6,7 +6,7 @@
 - [Step 2] 문자열 계산기 구현: [Issue #3](https://github.com/jaeyeonme/kotlin-racingcar/issues/3) · [PR #4](https://github.com/jaeyeonme/kotlin-racingcar/pull/4) — 완료
 - [Step 3] 자동차 경주: [Issue #5](https://github.com/jaeyeonme/kotlin-racingcar/issues/5) · [PR #6](https://github.com/jaeyeonme/kotlin-racingcar/pull/6) — 완료
 - [Step 4] 자동차 경주(우승자): [Issue #7](https://github.com/jaeyeonme/kotlin-racingcar/issues/7) · [PR #8](https://github.com/jaeyeonme/kotlin-racingcar/pull/8) — 완료
-- [Step 5] 자동차 경주(리팩터링): [Issue #9](https://github.com/jaeyeonme/kotlin-racingcar/issues/9) · [PR #10](https://github.com/jaeyeonme/kotlin-racingcar/pull/10) — 구현 완료 · 리뷰 중
+- [Step 5] 자동차 경주(리팩터링): [Issue #9](https://github.com/jaeyeonme/kotlin-racingcar/issues/9) · [PR #10](https://github.com/jaeyeonme/kotlin-racingcar/pull/10) — 완료
 
 ## 과거 제출 이력
 
