@@ -38,5 +38,5 @@
 
 ### Step 5 - 자동차 경주(리팩터링)
 
-- [x] `domain`과 `view` 패키지 분리
-- [x] `view`가 `domain`에만 의존하도록 MVC 방향으로 리팩터링
+- [x] 핵심 비즈니스 로직과 UI 객체를 `domain`·`view` 패키지로 분리하고, `domain`이 `view`에 의존하지 않도록 구성
+- [x] 출력용 상태를 분리해 `ResultView`가 도메인 객체를 직접 받지 않도록 변경
