@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 class CarTest {
     @Test
     fun `무작위 값이 4 이상이면 전진한다`() {
-        val car = Car()
+        val car = Car(CarName("pobi"))
 
         car.move(4)
 
@@ -15,7 +15,7 @@ class CarTest {
 
     @Test
     fun `무작위 값이 4 미만이면 전진하지 않는다`() {
-        val car = Car()
+        val car = Car(CarName("pobi"))
 
         car.move(3)
 

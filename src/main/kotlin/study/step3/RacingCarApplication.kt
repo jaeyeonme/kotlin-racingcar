@@ -8,9 +8,9 @@ import study.step3.view.ResultView
 import kotlin.random.Random
 
 fun main() {
-    val carCount = InputView.readCarCount()
+    val carNames = InputView.readCarNames()
     val attemptCount = InputView.readAttemptCount()
-    val cars = List(carCount) { Car() }
+    val cars = carNames.map(::Car)
     val randomNumberGenerator = RandomNumberGenerator { Random.nextInt(FIRST_RANDOM_VALUE, LAST_RANDOM_VALUE_EXCLUSIVE) }
     val race = Race(cars, randomNumberGenerator)
 

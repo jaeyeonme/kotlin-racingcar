@@ -1,6 +1,8 @@
 package study.step3.domain
 
-class Car {
+class Car(
+    val name: CarName,
+) {
     var position: Int = INITIAL_POSITION
         private set
 
