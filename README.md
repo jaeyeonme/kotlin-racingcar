@@ -2,7 +2,9 @@
 
 ## 현재 구현 현황
 
-- [Step 1] 코틀린 학습 테스트: [Issue #1](https://github.com/jaeyeonme/kotlin-racingcar/issues/1) · [PR #2](https://github.com/jaeyeonme/kotlin-racingcar/pull/2) — 구현 완료 · 리뷰 중
+- [Step 1] 코틀린 학습 테스트: [Issue #1](https://github.com/jaeyeonme/kotlin-racingcar/issues/1) · [PR #2](https://github.com/jaeyeonme/kotlin-racingcar/pull/2) — 완료
+- [Step 2] 문자열 계산기 구현: [Issue #3](https://github.com/jaeyeonme/kotlin-racingcar/issues/3) — 구현 중
+- 구현 Pull Request: 생성 예정
 
 ## 과거 제출 이력
 
