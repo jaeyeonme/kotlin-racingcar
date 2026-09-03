@@ -6,10 +6,12 @@ import org.junit.jupiter.api.Test
 
 class CarNameTest {
     @Test
-    fun `1자 이상 5자 이하의 자동차 이름을 생성한다`() {
-        val carName = CarName("pobi")
+    fun `1자와 5자 자동차 이름을 생성한다`() {
+        val oneCharacterName = CarName("a")
+        val fiveCharacterName = CarName("abcde")
 
-        assertThat(carName.value).isEqualTo("pobi")
+        assertThat(oneCharacterName.value).isEqualTo("a")
+        assertThat(fiveCharacterName.value).isEqualTo("abcde")
     }
 
     @Test
